@@ -1,5 +1,5 @@
-app_path = File.expand_path(File.dirname(__FILE__) + '/..')
-#app_path = "/var/www/blog/current"
+#app_path = File.expand_path(File.dirname(__FILE__) + '/..')
+app_path = "/var/www/blog/current"
 worker_processes 1
 listen app_path + '/tmp/sockets/unicorn.sock', backlog: 1024
 timeout 300
